@@ -1595,12 +1595,12 @@ body:has(.offcanvas){
 	text-align: left;
 	z-index: 2; */
 	padding: 10px 0px;
-	background: #1e1e1e;
+	background: #00779d;
 	
 }
 
 .project-content h3{
-	font-size: 20px;
+	font-size: 18px;
 	color: #fff;
 	text-align: center;
 }
@@ -2234,9 +2234,9 @@ body:has(.offcanvas){
 }
 
 .faq-accordion .accordion-item{
-    border-bottom: 1px solid var(--dark-divider-color);
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    /* border-bottom: 1px solid var(--dark-divider-color);
+    margin-bottom: 30px; */
+    padding-bottom: 15px;
 }
 
 .faq-accordion .accordion-item:last-child{
@@ -2246,12 +2246,14 @@ body:has(.offcanvas){
 }
 
 .faq-accordion .accordion-header .accordion-button{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     line-height: 1.2em;
     color: var(--white-color);
     padding-right: 35px;
     transition: all 0.3s ease-in-out;
+	border: 1px solid #b5b5b5;
+    padding: 12px 20px;
 }
 
 .faq-accordion .accordion-button:not(.collapsed){
@@ -2265,7 +2267,7 @@ body:has(.offcanvas){
     font-family: 'FontAwesome';
     position: absolute;
     right: 20px;
-    top: 0;    
+    top: 13px;    
     font-size: 16px;
     color: var(--white-color);
     transition: all 0.3s ease-in-out;
@@ -2285,8 +2287,9 @@ body:has(.offcanvas){
 }
 
 .faq-accordion .accordion-item .accordion-body p{
-    color: var(--text-color);
+    color: #484848;
     margin-bottom: 15px;
+    padding: 10px;
 }
 
 .faq-accordion .accordion-item .accordion-body p:last-child{
@@ -3211,13 +3214,14 @@ body:has(.offcanvas){
 /************************************/
 
 .page-service-single{
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .service-sidebar{
     position: sticky;
     top: 30px;
     margin-right: 30px;
+	/* margin-bottom: 35px; */
 }
 
 .service-catagery-list{
@@ -3273,7 +3277,7 @@ body:has(.offcanvas){
 .service-catagery-list ul li a{
     position: relative;
     display: block;
-    color: var(--text-color);
+    color: #202020;
     text-transform: capitalize;
     transition: all 0.3s ease-in-out;
 }
@@ -3413,11 +3417,12 @@ body:has(.offcanvas){
 }
 
 .service-entry{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .service-entry p{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+	color:#262626;
 }
 
 .service-entry p:last-child{
@@ -3426,11 +3431,11 @@ body:has(.offcanvas){
 
 .service-entry h2{
     font-size: 46px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .service-specialty{
-    margin: 60px 0;
+    margin: 0px 0;
 }
 
 .service-entry-box{
@@ -3558,11 +3563,12 @@ body:has(.offcanvas){
 }
 
 .faq-accordion.page-faq-accordion .accordion-header .accordion-button{
-    color: var(--primary-color);
+    color: #3e3e3e;
 }
 
 .faq-accordion.page-faq-accordion .accordion-button:not(.collapsed){
-    color: #05789f;
+	background: #05789f;
+    color: #fff;
 }
 
 .faq-accordion.page-faq-accordion .accordion-item .accordion-button::after,
@@ -3571,7 +3577,7 @@ body:has(.offcanvas){
 }
 
 .faq-accordion.page-faq-accordion .accordion-button:not(.collapsed)::after{
-    color: #05789f;
+    color: #fff;
 }
 
 /************************************/
@@ -5580,7 +5586,7 @@ body:has(.offcanvas){
 
     .service-entry h2{
         font-size: 36px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .service-entry p{
@@ -6782,36 +6788,7 @@ body:has(.offcanvas){
 }
 
 
-@media only screen and (max-width: 480px){
-	.client-section {
-		padding: 30px 0px 50px;
-	}
-	.footer-links h3 {
-        font-size: 22px;
-        margin-bottom: 15px;
-    }
-	.icon-box i {
-		color: #03ade7;
-		font-size: 20px;
-	}
-	.footer-menu p {
-		line-height: 1.8em;
-		margin-bottom: 0.6em;
-		text-align: center;
-	}
-	.about-us .row{
-		flex-direction: column-reverse;
-	}
-	.about-us .about-us-content-btn{
-		margin-bottom: 30px;
-	}
-	.why-choose-content {
-        position: relative;
-        padding-left: calc((100vw - 1300px) / 2);
-        margin: 20px 0px 40px 25px;
-        z-index: 1;
-    }
-}
+
 @media only screen and (max-width: 1024px){
 	.main-menu ul li a {
 		font-family: var(--accent-font);
@@ -6881,10 +6858,10 @@ body:has(.offcanvas){
 	color: var(--secondary-color);
 }
 .footer-copyright-text p{
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .section-title h4{
-	font-size: 22px;
+	font-size: 20px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -6911,4 +6888,112 @@ hr{
 .service-entry h2{
 	font-size: 26px;
 	line-height: 34px;
+}
+.service-specialty h2{
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.prod-sec{
+	margin-bottom: 25px;
+    border: 1px solid #8b8b8b;
+}
+.prod-sec h4{
+	font-size: 17px;
+	text-align: center;
+	padding: 8px 10px;
+}
+.service-single-content .img-div{
+	margin-bottom: 25px;
+}
+.service-single-content .img-div img{
+	width: 100%;
+}
+.our-faq-section .section-title h2 {
+	font-size: 29px;
+    margin-bottom: 20px;
+    cursor: none;
+    color: #242424;
+}
+.service-catagery-list ul li:active a{
+   
+    color: #00779d;
+   
+}
+.sidebar-cta-footer ul li i{
+	color: #00779d;
+	padding-right:10px ;
+	font-size: 20px;
+}
+.our-benefits-list ul li{
+	list-style-type: disc;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	color: #242424;
+}
+.prod-bottom h4{
+	margin-bottom: 20px;
+}
+.prod-bottom{
+	padding-top: 0px;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: #939393;
+    border-style: solid;
+    border-width: 0;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-color-type: #000000;
+    --bs-table-bg-type: rgb(219 217 217);
+}
+.company-skill-content .section-title h2{
+	font-size: 30px;
+}
+.table>:not(caption)>*>* {
+    padding: .5rem 1.5rem;
+}
+.service-entry h4{
+	font-size: 19px;
+	padding-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 480px){
+	.client-section {
+		padding: 30px 0px 50px;
+	}
+	.footer-links h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+	.company-skill-content .section-title h2 {
+		font-size: 25px;
+	}
+	.prod-bottom {
+		padding-top: 0px;
+	}
+	.icon-box i {
+		color: #03ade7;
+		font-size: 20px;
+	}
+	.page-service-single .row{
+		flex-direction: column-reverse;
+	}
+	.footer-menu p {
+		line-height: 1.8em;
+		margin-bottom: 0.6em;
+		text-align: center;
+	}
+	.about-us .row{
+		flex-direction: column-reverse;
+	}
+	.about-us .about-us-content-btn{
+		margin-bottom: 30px;
+	}
+	.why-choose-content {
+        position: relative;
+        padding-left: calc((100vw - 1300px) / 2);
+        margin: 20px 0px 40px 25px;
+        z-index: 1;
+    }
 }
