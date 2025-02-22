@@ -94,6 +94,7 @@ figure{
 
 img{
 	max-width: 100%;
+	
 }
 
 a{
@@ -521,7 +522,7 @@ header.main-header .header-sticky.active{
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	width: 260px;
+	width: 300px;
 	border-radius: 20px;
 	position: absolute;
 	left: 0;
@@ -532,7 +533,13 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul li.submenu:first-child ul{
-    width: 230px;
+    width: 280px;
+	padding: 5px;
+	
+}
+.main-menu ul li.submenu:first-child ul li{
+   margin-top: 10px;
+	
 }
 
 .main-menu ul ul ul{
@@ -3438,6 +3445,10 @@ body:has(.offcanvas){
 
 .service-specialty{
     margin: 0px 0;
+}
+.service-specialty img{
+	height: 200px;
+	max-width: 100%;
 }
 
 .service-entry-box{
@@ -6846,7 +6857,10 @@ body:has(.offcanvas){
     color:#c63287;
 }
 .youtube i{
-    color: red;
+    color:  rgb(222, 46, 46)!important;
+}
+.youtube{
+	background-color: rgb(222, 46, 46);
 }
 .footer-social-links ul li:hover {
    
